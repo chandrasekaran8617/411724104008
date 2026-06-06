@@ -1,0 +1,67 @@
+body{
+    color: green;
+}
+
+
+p{
+    font-family:  'Times New Roman', Times, serif;
+    font-size: xx-large;
+    font-style: italic;
+    
+}
+
+img{
+    height: 1000px;
+    width: 1000px;
+    border-radius :500px;
+}
+
+ol{
+    list-style-type:upper-roman;
+}
+
+
+ul{
+    list-style-type: square;
+}
+
+h1{
+    padding: 50px;
+    border: 1px solid rebeccapurple;
+    margin: 50px;
+}
+button{
+    background-color: blueviolet;
+}
+button::hover{
+    background-color: aquamarine;
+}
+
+table{
+    border: 1px solid white;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#p1{
+    font-style: italic;
+}
+
+#p2{
+    font-style: normal;
+}
+
+.group{
+
+    font-size: xx-large;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
