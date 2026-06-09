@@ -10,11 +10,23 @@ p{
     
 }
 
-img{
-    height: 1000px;
-    width: 1000px;
-    border-radius :500px;
+
+@media (max-width: 600px) {
+    img{
+    height: auto;
+    width: 100%;
 }
+}
+
+@media (max-width:600px) {
+    
+}
+video{
+    width: 100%;
+}
+
+
+
 
 ol{
     list-style-type:upper-roman;
@@ -44,7 +56,13 @@ table{
 nav{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+}
+@media (min-width: 1024px) {
+    nav{
+        display: flex;
+        fles-direction : row;
+        gap: 50px;
+    }
 }
 
 #p1{
@@ -62,6 +80,12 @@ nav{
 
 .grid{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+}
+
+@media (min-width :1024px){
+    .grid{
+        display: : grid;
+        grid-template-columns: 33% 33% 33%;
+    }
 }
 
